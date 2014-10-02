@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+  <CurrentConfigs><Project>test/Debug</Project></CurrentConfigs></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>247</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Debug-Log>
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1662</ColumnWidth1></Debug-Log>
+      <Build>
+        
+        
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>508</ColumnWidth1><ColumnWidth2>135</ColumnWidth2><ColumnWidth3>33</ColumnWidth3></Build>
+      <TerminalIO/>
+    </Static>
+    <Windows>
+      
+      
+    <Wnd0>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-10160-19484</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>test</ExpandedNode><ExpandedNode>test/Board</ExpandedNode><ExpandedNode>test/Mcu</ExpandedNode><ExpandedNode>test/Periph</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd0><Wnd1>
+        <Tabs>
+          
+          <Tab>
+            <Identity>TabID-15535-22044</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+        <Tab><Identity>TabID-9522-26183</Identity><TabName>Debug Log</TabName><Factory>Debug-Log</Factory><Session/></Tab></Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd1></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Source\hal\target\CC2530EB\timer1.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>460</SelStart><SelEnd>460</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Source\hal\target\CC2530EB\hal_board.c</Filename><XPos>0</XPos><YPos>31</YPos><SelStart>1442</SelStart><SelEnd>1442</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Source\hal\target\CC2530EB\hal_board.h</Filename><XPos>0</XPos><YPos>174</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Source\hal\target\CC2530EB\clock.c</Filename><XPos>0</XPos><YPos>12</YPos><SelStart>437</SelStart><SelEnd>437</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\..\..\Program Files\IAR Systems\Embedded Workbench 5.4\8051\INC\ioCC2530.h</Filename><XPos>0</XPos><YPos>144</YPos><SelStart>9285</SelStart><SelEnd>9285</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Source\hal\target\CC2530EB\hal_mcu.h</Filename><XPos>0</XPos><YPos>20</YPos><SelStart>1071</SelStart><SelEnd>1073</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Source\hal\target\CC2530EB\bin_cnst.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>141</SelStart><SelEnd>141</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Source\hal\target\CC2530EB\hal_mcu.c</Filename><XPos>0</XPos><YPos>62</YPos><SelStart>2227</SelStart><SelEnd>2227</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Source\hal\target\CC2530EB\hal_digio.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>630</SelStart><SelEnd>630</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Source\hal\target\CC2530EB\hal_rf.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>502</SelStart><SelEnd>502</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Source\hal\target\components\basicrf\basic_rf.h</Filename><XPos>0</XPos><YPos>54</YPos><SelStart>2823</SelStart><SelEnd>2839</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Source\hal\target\CC2530EB\hal_assert.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>362</SelStart><SelEnd>362</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Source\hal\target\components\basicrf\basic_rf.c</Filename><XPos>0</XPos><YPos>380</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\main.c</Filename><XPos>0</XPos><YPos>74</YPos><SelStart>2603</SelStart><SelEnd>2603</SelEnd></Tab><ActiveTab>13</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Source\hal\target\CC2530EB\hal_rf.c</Filename><XPos>0</XPos><YPos>437</YPos><SelStart>10571</SelStart><SelEnd>10571</SelEnd></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-013a6d10><key>iaridepm.enu1</key></Toolbar-013a6d10></Sizes></Row0><Row1><Sizes/></Row1><Row2><Sizes/></Row2></Top><Left><Row0><Sizes><Wnd0><Rect><Top>-2</Top><Left>-2</Left><Bottom>711</Bottom><Right>338</Right><x>-2</x><y>-2</y><xscreen>1175</xscreen><yscreen>49</yscreen><sizeHorzCX>1244703</sizeHorzCX><sizeHorzCY>49898</sizeHorzCY><sizeVertCX>360169</sizeVertCX><sizeVertCY>726069</sizeVertCY></Rect></Wnd0></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd1><Rect><Top>-2</Top><Left>-2</Left><Bottom>226</Bottom><Right>946</Right><x>-2</x><y>-2</y><xscreen>948</xscreen><yscreen>228</yscreen><sizeHorzCX>1004237</sizeHorzCX><sizeHorzCY>232179</sizeHorzCY><sizeVertCX>1244703</sizeVertCX><sizeVertCY>49898</sizeVertCY></Rect></Wnd1></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+
