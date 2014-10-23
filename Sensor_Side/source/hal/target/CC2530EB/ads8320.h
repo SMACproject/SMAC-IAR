@@ -18,7 +18,7 @@
 #include "hal_types.h"
 #include "hal_defs.h"
 #include "hal_mcu.h"  
-#include "ioCC2530.h"
+#include "cc253x.h"
 
 /*******************************************************************************/
 

@@ -9,7 +9,7 @@
 #include "hal_defs.h"
 #include "hal_mcu.h"  
 #include "clock.h"
-#include "ioCC2530.h"
+#include "cc253x.h"
 #include "spi_manager.h"
 #include "bin_cnst.h"
 #include "string.h"

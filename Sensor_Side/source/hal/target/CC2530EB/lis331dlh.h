@@ -9,7 +9,7 @@
 #include "hal_defs.h"
 #include "hal_mcu.h"  
 #include "clock.h"
-#include "ioCC2530.h"
+#include "cc253x.h"
 
 #ifndef LIS331DLH_H
 #define LIS331DLH_H

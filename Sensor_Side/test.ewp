@@ -456,6 +456,8 @@
           <state>$PROJ_DIR$\Source\hal\include</state>
           <state>$PROJ_DIR$\Source\hal\target\cc2530eb</state>
           <state>$PROJ_DIR$\Source\hal\target\components\basicrf</state>
+          <state>$PROJ_DIR$\cpu\cc253x\dev</state>
+          <state>$PROJ_DIR$\cpu\cc253x</state>
         </option>
         <option>
           <name>CCStdIncCheck</name>
@@ -2125,9 +2127,15 @@
     <name>Board</name>
     <file>
       <name>$PROJ_DIR$\source\hal\target\CC2530EB\hal_board.c</name>
+      <excluded>
+        <configuration>Debug</configuration>
+      </excluded>
     </file>
     <file>
       <name>$PROJ_DIR$\source\hal\target\CC2530EB\hal_board.h</name>
+      <excluded>
+        <configuration>Debug</configuration>
+      </excluded>
     </file>
     <file>
       <name>$PROJ_DIR$\source\hal\target\CC2530EB\hal_rf.c</name>
@@ -2141,6 +2149,39 @@
     <file>
       <name>$PROJ_DIR$\source\hal\target\CC2530EB\util_lcd.c</name>
     </file>
+  </group>
+  <group>
+    <name>cpu</name>
+    <group>
+      <name>cc253x</name>
+      <group>
+        <name>dev</name>
+        <file>
+          <name>$PROJ_DIR$\cpu\cc253x\dev\clock.c</name>
+        </file>
+        <file>
+          <name>$PROJ_DIR$\cpu\cc253x\dev\clock.h</name>
+        </file>
+        <file>
+          <name>$PROJ_DIR$\cpu\cc253x\dev\pwr_mode_manager.c</name>
+        </file>
+        <file>
+          <name>$PROJ_DIR$\cpu\cc253x\dev\pwr_mode_manager.h</name>
+        </file>
+        <file>
+          <name>$PROJ_DIR$\cpu\cc253x\dev\spi_manager.c</name>
+        </file>
+        <file>
+          <name>$PROJ_DIR$\cpu\cc253x\dev\spi_manager.h</name>
+        </file>
+      </group>
+      <file>
+        <name>$PROJ_DIR$\cpu\cc253x\cc253x.h</name>
+      </file>
+      <file>
+        <name>$PROJ_DIR$\cpu\cc253x\compiler.h</name>
+      </file>
+    </group>
   </group>
   <group>
     <name>Mcu</name>
@@ -2200,9 +2241,15 @@
     </file>
     <file>
       <name>$PROJ_DIR$\source\hal\target\CC2530EB\clock.c</name>
+      <excluded>
+        <configuration>Debug</configuration>
+      </excluded>
     </file>
     <file>
       <name>$PROJ_DIR$\source\hal\target\CC2530EB\clock.h</name>
+      <excluded>
+        <configuration>Debug</configuration>
+      </excluded>
     </file>
     <file>
       <name>$PROJ_DIR$\source\hal\target\CC2530EB\hal_button.c</name>
@@ -2215,27 +2262,18 @@
     </file>
     <file>
       <name>$PROJ_DIR$\source\hal\target\CC2530EB\mpl115a.c</name>
+      <excluded>
+        <configuration>Debug</configuration>
+      </excluded>
     </file>
     <file>
       <name>$PROJ_DIR$\source\hal\target\CC2530EB\mpl115a.h</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\source\hal\target\CC2530EB\pwr_mode_manager.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\source\hal\target\CC2530EB\pwr_mode_manager.h</name>
     </file>
     <file>
       <name>$PROJ_DIR$\source\hal\target\CC2530EB\rf_pack.c</name>
     </file>
     <file>
       <name>$PROJ_DIR$\source\hal\target\CC2530EB\rf_pack.h</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\source\hal\target\CC2530EB\spi_manager.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\source\hal\target\CC2530EB\spi_manager.h</name>
     </file>
     <file>
       <name>$PROJ_DIR$\source\hal\target\CC2530EB\timer1.c</name>

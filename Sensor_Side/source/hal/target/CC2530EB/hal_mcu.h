@@ -39,7 +39,7 @@ enum {                  // Return values of halMcuGetResetCause()
  * GLOBAL FUNCTIONS
  */
 
-void halMcuInit(void);
+//void halMcuInit(void);
 void halMcuWaitUs(uint16 usec);
 void halMcuWaitMs(uint16 msec);
 void halMcuReset(void);

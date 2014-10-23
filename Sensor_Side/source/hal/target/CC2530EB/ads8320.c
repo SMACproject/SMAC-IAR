@@ -14,7 +14,7 @@
 #include "hal_mcu.h"  
 #include "ads8320.h"
 #include "clock.h"
-#include "ioCC2530.h"
+#include "cc253x.h"
 
 /***********************************************************************************
 * GLOBAL FUNCTIONS

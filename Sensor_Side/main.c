@@ -4,23 +4,23 @@ Version:   1.0
 Author:    Beccani Marco
 ***********************************************************************************/
 
-#include <hal_mcu.h>
-#include <clock.h>
-#include <timer1.h>
-#include <stdio.h>
-#include <stdlib.h>
-#include <ioCC2530.h>
-#include <string.h>
-#include <hal_rf.h>
-#include <basic_rf.h>
-#include <hal_rf.h>
-#include <rf_pack.h>
-#include <adc.h>
-#include <pwr_mode_manager.h>
-#include <ads8320.h>
-#include <spi_manager.h>
-#include <lis331dlh.h>
-#include <mpl115a.h>
+#include "hal_mcu.h"
+#include "clock.h"
+#include "timer1.h"
+#include "stdio.h"
+#include "stdlib.h"
+#include "cc253x.h"
+#include "string.h"
+#include "hal_rf.h"
+#include "basic_rf.h"
+#include "hal_rf.h"
+#include "rf_pack.h"
+#include "adc.h"
+#include "pwr_mode_manager.h"
+#include "ads8320.h"
+#include "spi_manager.h"
+#include "lis331dlh.h"
+#include "mpl115a.h"
 
 #define DUMMY     0x00;
 
@@ -94,7 +94,8 @@ unsigned char coefficients_stored[16] = {0};
 bool  RF_Timeout(uint16 us_to_wait);
 
 int main(void){  
-    halMcuInit();   // Set Main Clock source to XOSC AND RCOSC
+    //halMcuInit();   // Set Main Clock source to XOSC AND RCOSC
+    clock_init();
     EA = 1;         // Global interrupt enable
     device_status = WAIT_CONNECT;
     

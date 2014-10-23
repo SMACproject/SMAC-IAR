@@ -17,7 +17,7 @@
 
 // Include chip specific IO definition file
 #if (chip == 2530 || chip == 2531)
-#include <ioCC2530.h>
+#include "cc253x.h"
 #endif
 
 /*******************************************************************************

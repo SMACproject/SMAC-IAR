@@ -71,15 +71,23 @@ void halMcuSetLowPowerMode(uint8 mode){
     ST0 = (unsigned char) sleeptime;
   }
 
-
-_Pragma("vector=P1INT_VECTOR") __near_func __interrupt void PORT1_IRQ()
+#if defined(SDCC)|| defined(__SDCC)
+void PORT1_IRQ() __interrupt(P1INT_VECTOR)
+#else
+#pragma vector_1=P1INT_VECTOR              //need to check:function has overlaid vector
+__near_func __interrupt void PORT1_IRQ()
+#endif
 {
   //P1IFG = ~(1 << 2);
   //IRCON2 = ~(1 << 3); 
-  }
+}
   
-
-_Pragma("vector=P0INT_VECTOR") __near_func __interrupt void PORT0_IRQ()
+#if defined(SDCC)|| defined(__SDCC)
+void PORT0_IRQ() __interrupt(P0INT_VECTOR)
+#else
+#pragma vector_0=P0INT_VECTOR             //need to check:function has overlaid vector
+__near_func __interrupt void PORT0_IRQ()
+#endif
 {
   P0IFG = ~(1 << 0);
   IRCON = ~(1 << 5); 

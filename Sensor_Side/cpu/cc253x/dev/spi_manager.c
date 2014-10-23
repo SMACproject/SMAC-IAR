@@ -11,7 +11,7 @@
 #include "hal_mcu.h"  
 #include "spi_manager.h"
 #include "clock.h"
-#include "ioCC2530.h"
+#include "cc253x.h"
 
 
 void SPI1_Switch_SSN(uint8 SSN_, bool value){
@@ -38,8 +38,12 @@ void SPI1_Send(unsigned char* SPI1TxBuf, unsigned int SPI1TxBufLength) {
 unsigned int SPI1TxIndex;
 for (SPI1TxIndex = 0; SPI1TxIndex < SPI1TxBufLength; SPI1TxIndex++) {
   U1DBUF = SPI1TxBuf[SPI1TxIndex];
+#if defined SDCC || defined (__SDCC)
+  while(ACTIVE);
+#else
   while(U1ACTIVE);
-  }
+#endif
+}
 }
 
 void SPI1_Receive(unsigned char* SPI1RxBuf, unsigned char SPI1RxBufLength) { 

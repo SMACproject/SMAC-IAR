@@ -17,12 +17,12 @@
 *
 * @brief       Set Main Clock source to XOSC AND RCOSC
 */
-void halMcuInit(void)
+/*void halMcuInit(void)
 {
   clockSetMainSrc(CLOCK_SRC_XOSC);
   clockSelect32k(CLOCK_32K_RCOSC);     
   halMcuSetLowPowerMode(0);
-}
+}*/
 
 /***********************************************************************************
 * @fn          halMcuWaitUs

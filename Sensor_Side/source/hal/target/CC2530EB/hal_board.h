@@ -14,7 +14,7 @@
 #elif (chip==2431)
 #include "ioCC2431.h"
 #elif (chip==2530 || chip==2531)
-#include "ioCC2530.h"
+#include "cc253x.h"
 #elif (chip==2510)
 #include "ioCC2510.h"
 #elif (chip==2511)
