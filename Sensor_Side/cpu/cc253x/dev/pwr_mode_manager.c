@@ -11,6 +11,7 @@
 #include "hal_mcu.h"  
 #include "pwr_mode_manager.h"
 #include "clock.h"
+#include "cc253x.h"
 
 /*******************************************************************************/
 
@@ -74,7 +75,7 @@ void halMcuSetLowPowerMode(uint8 mode){
 #if defined(SDCC)|| defined(__SDCC)
 void PORT1_IRQ() __interrupt(P1INT_VECTOR)
 #else
-#pragma vector_1=P1INT_VECTOR              //need to check:function has overlaid vector
+_Pragma("vector=P1INT_VECTOR") //need to check:function has overlaid vector
 __near_func __interrupt void PORT1_IRQ()
 #endif
 {
@@ -85,11 +86,11 @@ __near_func __interrupt void PORT1_IRQ()
 #if defined(SDCC)|| defined(__SDCC)
 void PORT0_IRQ() __interrupt(P0INT_VECTOR)
 #else
-#pragma vector_0=P0INT_VECTOR             //need to check:function has overlaid vector
+_Pragma("vector=P0INT_VECTOR") //need to check:function has overlaid vector
 __near_func __interrupt void PORT0_IRQ()
 #endif
 {
-  P0IFG = ~(1 << 0);
+    P0IFG = ~(1 << 0);
   IRCON = ~(1 << 5); 
 }
-  
+ 

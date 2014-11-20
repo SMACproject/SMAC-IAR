@@ -2,204 +2,184 @@
 
 <project>
   <fileVersion>2</fileVersion>
-  <fileChecksum>4081788</fileChecksum>
+  <fileChecksum>1158685715</fileChecksum>
   <configuration>
     <name>Debug</name>
     <outputs>
-      <file>$PROJ_DIR$\source\hal\target\CC2530EB\hal_joystick.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\clock.r51</file>
-      <file>$PROJ_DIR$\Debug\Obj\rf_pack.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\hal_button.pbi</file>
       <file>$PROJ_DIR$\Debug\Obj\main.r51</file>
-      <file>$PROJ_DIR$\Debug\Exe\test.d51</file>
-      <file>$PROJ_DIR$\Debug\Obj\timer1.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\hal_assert.pbi</file>
-      <file>$TOOLKIT_DIR$\inc\clib\stdlib.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\hal_rf.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\hal_mcu.r51</file>
-      <file>$PROJ_DIR$\Debug\Obj\lis331dlh.r51</file>
+      <file>$PROJ_DIR$\source\hal\target\CC2530EB\ads8320.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\clock.r51</file>
+      <file>$PROJ_DIR$\source\hal\target\CC2530EB\hal_button.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\timer1.r51</file>
+      <file>$PROJ_DIR$\source\hal\target\CC2530EB\bin_cnst.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\basic_rf.r51</file>
+      <file>$PROJ_DIR$\Debug\Obj\clock.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\rf_pack.r51</file>
+      <file>$PROJ_DIR$\source\hal\target\components\basicrf\basic_rf.h</file>
+      <file>$PROJ_DIR$\source\hal\target\CC2530EB\rf_pack.h</file>
+      <file>$PROJ_DIR$\source\hal\target\CC2530EB\timer1.c</file>
+      <file>$PROJ_DIR$\source\hal\target\CC2530EB\timer1.h</file>
+      <file>$PROJ_DIR$\source\hal\target\components\basicrf\basic_rf.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\util_lcd.pbi</file>
       <file>$PROJ_DIR$\Debug\List\test.map</file>
+      <file>$PROJ_DIR$\Debug\Obj\uart_manager.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\ads8320.r51</file>
+      <file>$PROJ_DIR$\Debug\Obj\main_sensor.pbi</file>
+      <file>$PROJ_DIR$\main.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\timer1.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\clib\stdio.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\hal_assert.pbi</file>
+      <file>$PROJ_DIR$\source\hal\target\CC2530EB\hal_button.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\hal_mcu.r51</file>
+      <file>$PROJ_DIR$\source\hal\target\CC2530EB\hal_defs.h</file>
+      <file>$TOOLKIT_DIR$\lib\clib\cl-pli-blxd-1e16x01.r51</file>
+      <file>$PROJ_DIR$\source\hal\target\CC2530EB\hal_joystick.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\hal_int.pbi</file>
+      <file>$PROJ_DIR$\source\hal\target\CC2530EB\hal_assert.c</file>
+      <file>$PROJ_DIR$\source\hal\target\CC2530EB\hal_cc8051.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\ads8320.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\spi_manager.r51</file>
+      <file>$PROJ_DIR$\source\hal\target\CC2530EB\hal_int.h</file>
+      <file>$PROJ_DIR$\source\hal\target\CC2530EB\hal_mcu.c</file>
+      <file>$PROJ_DIR$\source\hal\target\CC2530EB\hal_mcu.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\hal_assert.r51</file>
+      <file>$PROJ_DIR$\source\hal\target\CC2530EB\hal_int.c</file>
+      <file>$TOOLKIT_DIR$\inc\clib\string.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\main_sensor.r51</file>
+      <file>$PROJ_DIR$\Debug\Obj\hal_mcu.pbi</file>
+      <file>$PROJ_DIR$\source\hal\target\CC2530EB\hal_rf.c</file>
+      <file>$PROJ_DIR$\source\hal\target\CC2530EB\hal_lcd.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\lis331dlh.r51</file>
+      <file>$PROJ_DIR$\Debug\Obj\hal_int.r51</file>
+      <file>$PROJ_DIR$\source\hal\target\CC2530EB\adc.h</file>
+      <file>$PROJ_DIR$\source\hal\target\CC2530EB\util_lcd.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\rf_pack.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\main_pc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Exe\test.d51</file>
+      <file>$PROJ_DIR$\source\hal\target\CC2530EB\ads8320.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\hal_rf.pbi</file>
       <file>$TOOLKIT_DIR$\config\devices\Texas Instruments\lnk51ew_CC2530F256_banked.xcl</file>
       <file>$PROJ_DIR$\Debug\Exe\test.hex</file>
-      <file>$TOOLKIT_DIR$\lib\clib\cl-pli-blxd-1e16x01.r51</file>
-      <file>$PROJ_DIR$\Debug\Obj\basic_rf.r51</file>
-      <file>$PROJ_DIR$\source\hal\target\CC2530EB\hal_board.h</file>
-      <file>$PROJ_DIR$\source\hal\target\CC2530EB\hal_rf.c</file>
-      <file>$PROJ_DIR$\source\hal\target\CC2530EB\hal_board.c</file>
-      <file>$PROJ_DIR$\source\hal\target\CC2530EB\hal_lcd.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\rf_pack.r51</file>
-      <file>$TOOLKIT_DIR$\inc\clib\stdarg.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\util_lcd.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\hal_button.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\hal_rf.r51</file>
-      <file>$PROJ_DIR$\Debug\Obj\hal_mcu.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\util.r51</file>
-      <file>$PROJ_DIR$\Debug\Obj\hal_button.r51</file>
-      <file>$PROJ_DIR$\Debug\Obj\ads8320.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\clib\stdlib.h</file>
       <file>$PROJ_DIR$\Debug\Obj\adc.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\timer1.r51</file>
-      <file>$PROJ_DIR$\Debug\Obj\spi_manager.r51</file>
-      <file>$TOOLKIT_DIR$\inc\clib\sysmac.h</file>
-      <file>$PROJ_DIR$\source\hal\target\components\basicrf\basic_rf.h</file>
-      <file>$PROJ_DIR$\source\hal\target\components\basicrf\basic_rf.c</file>
-      <file>$PROJ_DIR$\source\hal\target\CC2530EB\hal_assert.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\util.r51</file>
+      <file>$PROJ_DIR$\Debug\Obj\lis331dlh.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\util_lcd.r51</file>
       <file>$PROJ_DIR$\Debug\Obj\pwr_mode_manager.r51</file>
-      <file>$PROJ_DIR$\source\hal\target\CC2530EB\hal_cc8051.h</file>
-      <file>$PROJ_DIR$\source\hal\target\CC2530EB\hal_assert.h</file>
-      <file>$PROJ_DIR$\source\hal\target\CC2530EB\hal_defs.h</file>
-      <file>$PROJ_DIR$\source\hal\target\CC2530EB\hal_int.c</file>
-      <file>$PROJ_DIR$\source\hal\target\CC2530EB\hal_int.h</file>
-      <file>$PROJ_DIR$\source\hal\target\CC2530EB\hal_mcu.h</file>
-      <file>$PROJ_DIR$\source\hal\target\CC2530EB\hal_mcu.c</file>
-      <file>$PROJ_DIR$\Debug\Obj\hal_int.r51</file>
-      <file>$PROJ_DIR$\Debug\Obj\hal_int.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\pwr_mode_manager.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\basic_rf.pbi</file>
-      <file>$PROJ_DIR$\source\hal\target\CC2530EB\util.h</file>
-      <file>$PROJ_DIR$\source\hal\target\CC2530EB\util_lcd.c</file>
+      <file>$PROJ_DIR$\source\hal\target\CC2530EB\hal_rf.h</file>
       <file>$PROJ_DIR$\source\hal\target\CC2530EB\util.c</file>
-      <file>$PROJ_DIR$\cpu\cc253x\dev\clock.c</file>
-      <file>$PROJ_DIR$\cpu\cc253x\dev\clock.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\hal_button.r51</file>
+      <file>$PROJ_DIR$\source\hal\target\CC2530EB\clock.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\spi_manager.pbi</file>
+      <file>$PROJ_DIR$\source\hal\target\CC2530EB\adc.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\adc.r51</file>
+      <file>$PROJ_DIR$\Debug\Obj\util.pbi</file>
+      <file>$PROJ_DIR$\source\hal\target\CC2530EB\hal_types.h</file>
+      <file>$PROJ_DIR$\source\hal\target\CC2530EB\lis331dlh.c</file>
+      <file>$PROJ_DIR$\source\hal\target\CC2530EB\util.h</file>
+      <file>$PROJ_DIR$\source\hal\target\CC2530EB\hal_board.h</file>
+      <file>$TOOLKIT_DIR$\inc\clib\sysmac.h</file>
+      <file>$PROJ_DIR$\source\hal\target\CC2530EB\dma.h</file>
+      <file>$TOOLKIT_DIR$\inc\ioCC2530.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\pwr_mode_manager.pbi</file>
+      <file>$PROJ_DIR$\source\hal\target\CC2530EB\rf_pack.c</file>
+      <file>$TOOLKIT_DIR$\inc\clib\stdarg.h</file>
+      <file>$PROJ_DIR$\source\hal\target\CC2530EB\hal_assert.h</file>
+      <file>$PROJ_DIR$\source\hal\target\CC2530EB\lis331dlh.h</file>
+      <file>$PROJ_DIR$\source\hal\target\CC2530EB\mpl115a.h</file>
+      <file>$PROJ_DIR$\source\hal\target\CC2530EB\util_lcd.h</file>
       <file>$PROJ_DIR$\cpu\cc253x\dev\pwr_mode_manager.c</file>
       <file>$PROJ_DIR$\cpu\cc253x\dev\pwr_mode_manager.h</file>
-      <file>$PROJ_DIR$\cpu\cc253x\cc253x.h</file>
-      <file>$PROJ_DIR$\cpu\cc253x\compiler.h</file>
       <file>$PROJ_DIR$\cpu\cc253x\dev\spi_manager.c</file>
       <file>$PROJ_DIR$\cpu\cc253x\dev\spi_manager.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\util.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\util_lcd.r51</file>
-      <file>$PROJ_DIR$\Debug\Obj\spi_manager.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\test.pbd</file>
-      <file>$PROJ_DIR$\Debug\Obj\adc.r51</file>
-      <file>$TOOLKIT_DIR$\inc\clib\stdio.h</file>
-      <file>$TOOLKIT_DIR$\inc\clib\string.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\hal_assert.r51</file>
-      <file>$PROJ_DIR$\source\hal\target\CC2530EB\bin_cnst.h</file>
-      <file>$PROJ_DIR$\source\hal\target\CC2530EB\adc.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\lis331dlh.pbi</file>
-      <file>$PROJ_DIR$\source\hal\target\CC2530EB\hal_rf.h</file>
-      <file>$PROJ_DIR$\source\hal\target\CC2530EB\ads8320.h</file>
-      <file>$PROJ_DIR$\source\hal\target\CC2530EB\hal_types.h</file>
-      <file>$PROJ_DIR$\source\hal\target\CC2530EB\ads8320.c</file>
-      <file>$PROJ_DIR$\source\hal\target\CC2530EB\adc.c</file>
-      <file>$PROJ_DIR$\source\hal\target\CC2530EB\hal_button.h</file>
-      <file>$PROJ_DIR$\source\hal\target\CC2530EB\util_lcd.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\clock.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\ads8320.r51</file>
-      <file>$PROJ_DIR$\source\hal\target\CC2530EB\hal_button.c</file>
-      <file>$PROJ_DIR$\source\hal\target\CC2530EB\mpl115a.h</file>
-      <file>$PROJ_DIR$\source\hal\target\CC2530EB\rf_pack.h</file>
-      <file>$PROJ_DIR$\source\hal\target\CC2530EB\rf_pack.c</file>
-      <file>$PROJ_DIR$\source\hal\target\CC2530EB\mpl115a.c</file>
-      <file>$PROJ_DIR$\source\hal\target\CC2530EB\timer1.h</file>
-      <file>$PROJ_DIR$\source\hal\target\CC2530EB\clock.c</file>
-      <file>$PROJ_DIR$\main.c</file>
-      <file>$PROJ_DIR$\source\hal\target\CC2530EB\lis331dlh.h</file>
-      <file>$PROJ_DIR$\source\hal\target\CC2530EB\timer1.c</file>
-      <file>$PROJ_DIR$\source\hal\target\CC2530EB\lis331dlh.c</file>
-      <file>$PROJ_DIR$\source\hal\target\CC2530EB\clock.h</file>
+      <file>$PROJ_DIR$\cpu\cc253x\dev\uart_manager.c</file>
+      <file>$PROJ_DIR$\cpu\cc253x\dev\uart_manager.h</file>
+      <file>$PROJ_DIR$\cpu\cc253x\cc253x.h</file>
+      <file>$PROJ_DIR$\cpu\cc253x\compiler.h</file>
+      <file>$PROJ_DIR$\main_pc.c</file>
+      <file>$PROJ_DIR$\main_sensor.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\hal_rf.r51</file>
+      <file>$PROJ_DIR$\Debug\Obj\basic_rf.pbi</file>
+      <file>$PROJ_DIR$\cpu\cc253x\dev\clock.h</file>
+      <file>$PROJ_DIR$\cpu\cc253x\dev\clock.c</file>
     </outputs>
-    <file>
-      <name>$PROJ_DIR$\Debug\Exe\test.d51</name>
-      <outputs>
-        <tool>
-          <name>XLINK</name>
-          <file> 12 14</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>XLINK</name>
-          <file> 13 64 79 16 1 67 28 45 10 25 11 3 37 21 32 31 27 61 15</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\source\hal\target\CC2530EB\hal_rf.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 9</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 17 56 57 38 73 40 43 42 39 71 49</file>
-        </tool>
-      </inputs>
-    </file>
     <file>
       <name>[ROOT_NODE]</name>
       <outputs>
         <tool>
           <name>XLINK</name>
-          <file> 4 12 14</file>
+          <file> 16 55 50</file>
         </tool>
       </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\source\hal\target\CC2530EB\hal_button.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 0</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 70 73 90 91 31 26 36 24</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\source\hal\target\CC2530EB\timer1.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 21</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 13 70 26 90 91</file>
+        </tool>
+      </inputs>
     </file>
     <file>
       <name>$PROJ_DIR$\source\hal\target\components\basicrf\basic_rf.c</name>
       <outputs>
         <tool>
           <name>BICOMP</name>
-          <file> 48</file>
+          <file> 95</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>BICOMP</name>
-          <file> 42 73 43 71 34 40 49 66 33</file>
+          <file> 34 70 36 62 10 26 72 39 74</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\main.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 1</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 52</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 36 70 65 26 90 91 13 22 79 74 56 39 62 10 11 46 85 2 87 96 81 82 6</file>
         </tool>
       </inputs>
     </file>
     <file>
       <name>$PROJ_DIR$\source\hal\target\CC2530EB\hal_assert.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 7</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 39 40 43 73</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\source\hal\target\CC2530EB\hal_int.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 46</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 73 40 42 17 56 57 38 43</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\source\hal\target\CC2530EB\hal_mcu.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 26</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 73 43 91 40 56 57 55</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\source\hal\target\CC2530EB\util_lcd.c</name>
       <outputs>
         <tool>
           <name>BICOMP</name>
@@ -209,72 +189,27 @@
       <inputs>
         <tool>
           <name>BICOMP</name>
-          <file> 17 56 57 38 73 40 43 20 0 76 39 77 49 71 66 33</file>
+          <file> 80 26 36 70</file>
         </tool>
       </inputs>
     </file>
     <file>
-      <name>$PROJ_DIR$\source\hal\target\CC2530EB\util.c</name>
+      <name>$PROJ_DIR$\source\hal\target\CC2530EB\hal_mcu.c</name>
       <outputs>
         <tool>
           <name>BICOMP</name>
-          <file> 60</file>
+          <file> 41</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>BICOMP</name>
-          <file> 49 73 40 71</file>
+          <file> 70 36 65 26 90 91 85</file>
         </tool>
       </inputs>
     </file>
     <file>
-      <name>$PROJ_DIR$\cpu\cc253x\dev\clock.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 78</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 56 57 53</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\cpu\cc253x\dev\pwr_mode_manager.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 47</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 73 40 43 55 56 57 53</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\cpu\cc253x\dev\spi_manager.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 62</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 73 40 43 59 53 56 57</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\source\hal\target\CC2530EB\ads8320.c</name>
+      <name>$PROJ_DIR$\source\hal\target\CC2530EB\hal_int.c</name>
       <outputs>
         <tool>
           <name>BICOMP</name>
@@ -284,7 +219,82 @@
       <inputs>
         <tool>
           <name>BICOMP</name>
-          <file> 73 40 43 72 56 57 91</file>
+          <file> 70 26 34 73 90 91 31 36</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\source\hal\target\CC2530EB\hal_rf.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 53</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 73 90 91 31 70 26 36 34 80 62 72</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\source\hal\target\CC2530EB\util_lcd.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 15</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 73 90 91 31 70 26 36 43 28 24 80 83 72 62 39 74</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\test.d51</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 16 55</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 54 68 18 7 3 37 64 45 25 94 44 40 61 9 33 5 58 60 27</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\source\hal\target\CC2530EB\ads8320.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 32</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 70 26 36 2 90 91 65</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\source\hal\target\CC2530EB\util.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 69</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 72 70 26 62</file>
         </tool>
       </inputs>
     </file>
@@ -292,82 +302,18 @@
       <name>$PROJ_DIR$\source\hal\target\CC2530EB\adc.c</name>
       <outputs>
         <tool>
-          <name>ICC8051</name>
-          <file> 64 79 16 1 67 28 45 10 25 11 3 37 21 32 31 27 61</file>
-        </tool>
-        <tool>
           <name>BICOMP</name>
-          <file> 30</file>
+          <file> 57</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>ICC8051</name>
-          <file> 69 73 40 56 57 74 43 72 91 35 42 71 34 49 66 33 52 53 36 39 80 17 38 76 41 44 55 18 90 88 87 85 65 22 8 82 59 81 68 54 83 58 89 51 50 20 0 77</file>
+          <file> 46 70 26 90 91 51 36 2 65 14 34 62 10 72 39 74 97 96 30 80 4 73 31 24 38 35 85 42 71 81 92 13 22 79 56 11 75 89 76 84 78 86 87 12 63 47 43 28 83</file>
         </tool>
         <tool>
           <name>BICOMP</name>
-          <file> 69 73 40 56 57</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\source\hal\target\CC2530EB\hal_button.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 24</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 73 17 56 57 38 40 43 76</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\source\hal\target\CC2530EB\rf_pack.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 2</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 73 40 65 22 33 82 66</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\main.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 6</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 43 73 91 40 56 57 85 65 22 33 8 66 71 34 82 69 55 72 59 53 88 81 68</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\source\hal\target\CC2530EB\timer1.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 5</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 85 73 40 56 57</file>
+          <file> 46 70 26 90 91</file>
         </tool>
       </inputs>
     </file>
@@ -376,16 +322,217 @@
       <outputs>
         <tool>
           <name>BICOMP</name>
-          <file> 70</file>
+          <file> 59</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>BICOMP</name>
-          <file> 73 40 43 91 56 57 88</file>
+          <file> 70 26 36 65 90 91 81</file>
         </tool>
       </inputs>
     </file>
+    <file>
+      <name>$PROJ_DIR$\source\hal\target\CC2530EB\rf_pack.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 48</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 70 26 22 79 74 11 39</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\cpu\cc253x\dev\pwr_mode_manager.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 77</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 70 26 36 85 90 91 96</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\cpu\cc253x\dev\spi_manager.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 66</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 70 26 36 87 96 90 91</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\cpu\cc253x\dev\uart_manager.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 17</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 70 26 36 96 89 76 22 79 74 56 39</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\main_pc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 49</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 36 70 65 26 90 91 13 22 79 74 56 39 62 10 11 46 75 73 31 85 89 76</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\main_sensor.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 40</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 19</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 36 70 65 26 90 91 13 22 79 74 56 39 62 10 11 46 85 2 87 96 81 82 6</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\cpu\cc253x\dev\clock.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 8</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 90 91 96</file>
+        </tool>
+      </inputs>
+    </file>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\source\hal\target\CC2530EB\hal_button.c</name>
+      <tool>ICC8051</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\source\hal\target\CC2530EB\timer1.c</name>
+      <tool>ICC8051</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\source\hal\target\components\basicrf\basic_rf.c</name>
+      <tool>ICC8051</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\source\hal\target\CC2530EB\hal_assert.c</name>
+      <tool>ICC8051</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\source\hal\target\CC2530EB\hal_mcu.c</name>
+      <tool>ICC8051</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\source\hal\target\CC2530EB\hal_int.c</name>
+      <tool>ICC8051</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\source\hal\target\CC2530EB\hal_rf.c</name>
+      <tool>ICC8051</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\source\hal\target\CC2530EB\util_lcd.c</name>
+      <tool>ICC8051</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\source\hal\target\CC2530EB\hal_board.c</name>
+      <tool>ICC8051</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\source\hal\target\CC2530EB\ads8320.c</name>
+      <tool>ICC8051</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\source\hal\target\CC2530EB\mpl115a.c</name>
+      <tool>ICC8051</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\source\hal\target\CC2530EB\clock.c</name>
+      <tool>ICC8051</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\source\hal\target\CC2530EB\util.c</name>
+      <tool>ICC8051</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\source\hal\target\CC2530EB\adc.c</name>
+      <tool>ICC8051</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\source\hal\target\CC2530EB\lis331dlh.c</name>
+      <tool>ICC8051</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\source\hal\target\CC2530EB\rf_pack.c</name>
+      <tool>ICC8051</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\cpu\cc253x\dev\pwr_mode_manager.c</name>
+      <tool>ICC8051</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\cpu\cc253x\dev\spi_manager.c</name>
+      <tool>ICC8051</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\cpu\cc253x\dev\uart_manager.c</name>
+      <tool>ICC8051</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\main_pc.c</name>
+      <tool>ICC8051</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\main_sensor.c</name>
+      <tool>ICC8051</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\cpu\cc253x\dev\clock.c</name>
+      <tool>ICC8051</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>XLINK</tool>
+    </forcedrebuild>
   </configuration>
   <configuration>
     <name>Release</name>
@@ -394,6 +541,994 @@
       <name>[MULTI_TOOL]</name>
       <tool>XLINK</tool>
     </forcedrebuild>
+  </configuration>
+  <configuration>
+    <name>pc_side</name>
+    <outputs>
+      <file>$TOOLKIT_DIR$\inc\clib\stdio.h</file>
+      <file>$TOOLKIT_DIR$\lib\clib\cl-pli-blxd-1e16x01.r51</file>
+      <file>$PROJ_DIR$\source\hal\target\CC2530EB\hal_joystick.h</file>
+      <file>$PROJ_DIR$\pc_side\Obj\pwr_mode_manager.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\clib\string.h</file>
+      <file>$PROJ_DIR$\source\hal\target\CC2530EB\hal_lcd.h</file>
+      <file>$PROJ_DIR$\pc_side\Obj\spi_manager.pbi</file>
+      <file>$PROJ_DIR$\pc_side\Obj\timer1.r51</file>
+      <file>$PROJ_DIR$\pc_side\Obj\rf_pack.r51</file>
+      <file>$PROJ_DIR$\pc_side\Obj\hal_mcu.r51</file>
+      <file>$PROJ_DIR$\pc_side\Obj\hal_assert.pbi</file>
+      <file>$PROJ_DIR$\pc_side\Obj\basic_rf.r51</file>
+      <file>$PROJ_DIR$\pc_side\Obj\hal_button.pbi</file>
+      <file>$PROJ_DIR$\pc_side\Obj\lis331dlh.pbi</file>
+      <file>$PROJ_DIR$\pc_side\Obj\util_lcd.pbi</file>
+      <file>$PROJ_DIR$\pc_side\Obj\hal_int.pbi</file>
+      <file>$PROJ_DIR$\pc_side\Obj\hal_mcu.pbi</file>
+      <file>$PROJ_DIR$\pc_side\Exe\test.d51</file>
+      <file>$PROJ_DIR$\pc_side\Obj\timer1.pbi</file>
+      <file>$PROJ_DIR$\pc_side\Obj\main_pc.pbi</file>
+      <file>$PROJ_DIR$\pc_side\Obj\pwr_mode_manager.r51</file>
+      <file>$PROJ_DIR$\pc_side\Obj\rf_pack.pbi</file>
+      <file>$PROJ_DIR$\pc_side\Obj\hal_assert.r51</file>
+      <file>$PROJ_DIR$\pc_side\Exe\test.hex</file>
+      <file>$PROJ_DIR$\pc_side\List\test.map</file>
+      <file>$PROJ_DIR$\source\hal\target\CC2530EB\hal_led.h</file>
+      <file>$TOOLKIT_DIR$\config\devices\Texas Instruments\lnk51ew_CC2530F256_banked.xcl</file>
+      <file>$TOOLKIT_DIR$\inc\clib\stdlib.h</file>
+      <file>$PROJ_DIR$\source\hal\target\CC2530EB\hal_board.h</file>
+      <file>$TOOLKIT_DIR$\inc\clib\sysmac.h</file>
+      <file>$PROJ_DIR$\source\hal\target\CC2530EB\dma.h</file>
+      <file>$TOOLKIT_DIR$\inc\clib\stdarg.h</file>
+      <file>$PROJ_DIR$\cpu\cc253x\dev\bin_cnst.h</file>
+      <file>$PROJ_DIR$\cpu\cc253x\dev\hal_int.c</file>
+      <file>$PROJ_DIR$\cpu\cc253x\dev\hal_int.h</file>
+      <file>$PROJ_DIR$\cpu\cc253x\dev\hal_assert.c</file>
+      <file>$PROJ_DIR$\cpu\cc253x\dev\hal_assert.h</file>
+      <file>$PROJ_DIR$\cpu\cc253x\dev\hal_button.c</file>
+      <file>$PROJ_DIR$\cpu\cc253x\dev\hal_button.h</file>
+      <file>$PROJ_DIR$\cpu\cc253x\dev\hal_cc8051.h</file>
+      <file>$PROJ_DIR$\cpu\cc253x\dev\hal_defs.h</file>
+      <file>$PROJ_DIR$\cpu\cc253x\dev\hal_mcu.c</file>
+      <file>$PROJ_DIR$\cpu\cc253x\dev\hal_mcu.h</file>
+      <file>$PROJ_DIR$\cpu\cc253x\dev\hal_rf.c</file>
+      <file>$PROJ_DIR$\cpu\cc253x\dev\hal_rf.h</file>
+      <file>$PROJ_DIR$\cpu\cc253x\dev\mpl115a.h</file>
+      <file>$PROJ_DIR$\cpu\cc253x\dev\mpl115a.c</file>
+      <file>$PROJ_DIR$\cpu\cc253x\dev\hal_types.h</file>
+      <file>$PROJ_DIR$\cpu\cc253x\dev\lis331dlh.c</file>
+      <file>$PROJ_DIR$\cpu\cc253x\dev\lis331dlh.h</file>
+      <file>$PROJ_DIR$\cpu\cc253x\dev\pwr_mode_manager.c</file>
+      <file>$PROJ_DIR$\cpu\cc253x\dev\pwr_mode_manager.h</file>
+      <file>$PROJ_DIR$\cpu\cc253x\dev\rf_pack.c</file>
+      <file>$PROJ_DIR$\cpu\cc253x\dev\rf_pack.h</file>
+      <file>$PROJ_DIR$\cpu\cc253x\dev\timer1.c</file>
+      <file>$PROJ_DIR$\cpu\cc253x\dev\timer1.h</file>
+      <file>$PROJ_DIR$\cpu\cc253x\dev\spi_manager.c</file>
+      <file>$PROJ_DIR$\cpu\cc253x\dev\spi_manager.h</file>
+      <file>$PROJ_DIR$\cpu\cc253x\dev\util.c</file>
+      <file>$PROJ_DIR$\cpu\cc253x\dev\util.h</file>
+      <file>$PROJ_DIR$\cpu\cc253x\dev\uart_manager.c</file>
+      <file>$PROJ_DIR$\cpu\cc253x\dev\uart_manager.h</file>
+      <file>$PROJ_DIR$\cpu\cc253x\cc253x.h</file>
+      <file>$PROJ_DIR$\cpu\cc253x\compiler.h</file>
+      <file>$PROJ_DIR$\cpu\cc253x\dev\util_lcd.c</file>
+      <file>$PROJ_DIR$\cpu\cc253x\dev\util_lcd.h</file>
+      <file>$PROJ_DIR$\main_pc.c</file>
+      <file>$PROJ_DIR$\main_sensor.c</file>
+      <file>$PROJ_DIR$\cpu\cc253x\dev\adc.h</file>
+      <file>$PROJ_DIR$\cpu\cc253x\dev\adc.c</file>
+      <file>$PROJ_DIR$\cpu\cc253x\dev\ads8320.c</file>
+      <file>$PROJ_DIR$\cpu\cc253x\dev\ads8320.h</file>
+      <file>$PROJ_DIR$\cpu\cc253x\dev\clock.h</file>
+      <file>$PROJ_DIR$\cpu\cc253x\dev\clock.c</file>
+      <file>$PROJ_DIR$\cpu\cc253x\dev\basic_rf.c</file>
+      <file>$PROJ_DIR$\cpu\cc253x\dev\basic_rf.h</file>
+      <file>$PROJ_DIR$\pc_side\Obj\test.pbd</file>
+      <file>$PROJ_DIR$\pc_side\Obj\hal_rf.pbi</file>
+      <file>$PROJ_DIR$\pc_side\Obj\adc.r51</file>
+      <file>$PROJ_DIR$\pc_side\Obj\lis331dlh.r51</file>
+      <file>$PROJ_DIR$\pc_side\Obj\basic_rf.pbi</file>
+      <file>$PROJ_DIR$\pc_side\Obj\hal_button.r51</file>
+      <file>$PROJ_DIR$\pc_side\Obj\main_pc.r51</file>
+      <file>$PROJ_DIR$\pc_side\Obj\util.pbi</file>
+      <file>$PROJ_DIR$\pc_side\Obj\spi_manager.r51</file>
+      <file>$PROJ_DIR$\pc_side\Obj\clock.pbi</file>
+      <file>$PROJ_DIR$\pc_side\Obj\util_lcd.r51</file>
+      <file>$PROJ_DIR$\pc_side\Obj\hal_rf.r51</file>
+      <file>$PROJ_DIR$\pc_side\Obj\ads8320.r51</file>
+      <file>$PROJ_DIR$\pc_side\Obj\clock.r51</file>
+      <file>$PROJ_DIR$\pc_side\Obj\hal_int.r51</file>
+      <file>$PROJ_DIR$\pc_side\Obj\ads8320.pbi</file>
+      <file>$PROJ_DIR$\pc_side\Obj\uart_manager.pbi</file>
+      <file>$PROJ_DIR$\pc_side\Obj\adc.pbi</file>
+      <file>$PROJ_DIR$\pc_side\Obj\util.r51</file>
+      <file>$PROJ_DIR$\pc_side\Obj\uart_manager.r51</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 17 24 23</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\pc_side\Exe\test.d51</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 24 23</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 26 78 88 11 89 22 81 90 9 87 79 82 20 8 84 7 95 94 86 1</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\cpu\cc253x\dev\hal_int.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 90</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 15</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 47 40 34 28 62 63 39 42</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 47 40 34 28 62 63 39 42</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\cpu\cc253x\dev\hal_assert.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 22</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 10</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 36 40 25 47 42</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 36 40 25 47 42</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\cpu\cc253x\dev\hal_button.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 81</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 12</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 47 28 62 63 39 40 42 38</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 47 28 62 63 39 40 42 38</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\cpu\cc253x\dev\hal_mcu.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 9</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 16</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 47 42 72 40 51 62 63</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 47 42 72 40 51 62 63</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\cpu\cc253x\dev\hal_rf.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 87</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 77</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 28 62 63 39 47 40 42 34 36 44 59</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 28 62 63 39 47 40 42 34 36 44 59</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\cpu\cc253x\dev\lis331dlh.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 79</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 13</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 47 40 42 72 62 63 49</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 47 40 42 72 62 63 49</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\cpu\cc253x\dev\pwr_mode_manager.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 20</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 3</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 47 40 42 51 62 63 72</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 47 40 42 51 62 63 72</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\cpu\cc253x\dev\rf_pack.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 8</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 21</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 47 40 0 31 29 53 4</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 47 40 0 31 29 53 4</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\cpu\cc253x\dev\timer1.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 7</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 18</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 55 47 40 62 63</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 55 47 40 62 63</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\cpu\cc253x\dev\spi_manager.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 84</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 47 40 42 57 72 62 63</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 47 40 42 57 72 62 63</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\cpu\cc253x\dev\util.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 94</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 83</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 59 47 40 44</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 59 47 40 44</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\cpu\cc253x\dev\uart_manager.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 95</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 92</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 47 40 42 72 61 62 63 0 31 29 27 4</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 47 40 42 72 61 62 63 0 31 29 27 4</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\cpu\cc253x\dev\util_lcd.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 86</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 14</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 28 62 63 39 47 40 42 5 2 38 36 65 59 44 4 29</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 28 62 63 39 47 40 42 5 2 38 36 65 59 44 4 29</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\main_pc.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 82</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 19</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 42 47 72 55 40 62 63 0 31 29 27 4 44 75 53 68 30 28 39 51 61</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 42 47 72 55 40 62 63 0 31 29 27 4 44 75 53 68 30 28 39 51 61</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\cpu\cc253x\dev\adc.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 78</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 93</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 68 47 40 62 63</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 68 47 40 62 63</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\cpu\cc253x\dev\ads8320.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 88</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 91</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 47 40 42 71 62 63 72</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 47 40 42 71 62 63 72</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\cpu\cc253x\dev\clock.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 89</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 85</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 62 63 72</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 62 63 72</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\cpu\cc253x\dev\basic_rf.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 11</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 80</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 34 47 42 44 75 40 59 4 29</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 34 47 42 44 75 40 59 4 29</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>sensor_side</name>
+    <outputs>
+      <file>$TOOLKIT_DIR$\inc\clib\stdio.h</file>
+      <file>$TOOLKIT_DIR$\lib\clib\cl-pli-blxd-1e16x01.r51</file>
+      <file>$PROJ_DIR$\source\hal\target\CC2530EB\hal_joystick.h</file>
+      <file>$TOOLKIT_DIR$\inc\clib\string.h</file>
+      <file>$PROJ_DIR$\source\hal\target\CC2530EB\hal_lcd.h</file>
+      <file>$PROJ_DIR$\source\hal\target\CC2530EB\hal_led.h</file>
+      <file>$TOOLKIT_DIR$\config\devices\Texas Instruments\lnk51ew_CC2530F256_banked.xcl</file>
+      <file>$TOOLKIT_DIR$\inc\clib\stdlib.h</file>
+      <file>$PROJ_DIR$\source\hal\target\CC2530EB\clock.h</file>
+      <file>$PROJ_DIR$\source\hal\target\CC2530EB\hal_board.h</file>
+      <file>$TOOLKIT_DIR$\inc\clib\sysmac.h</file>
+      <file>$TOOLKIT_DIR$\inc\clib\stdarg.h</file>
+      <file>$PROJ_DIR$\cpu\cc253x\dev\bin_cnst.h</file>
+      <file>$PROJ_DIR$\cpu\cc253x\dev\hal_int.c</file>
+      <file>$PROJ_DIR$\cpu\cc253x\dev\hal_int.h</file>
+      <file>$PROJ_DIR$\cpu\cc253x\dev\hal_assert.c</file>
+      <file>$PROJ_DIR$\cpu\cc253x\dev\hal_assert.h</file>
+      <file>$PROJ_DIR$\cpu\cc253x\dev\hal_button.c</file>
+      <file>$PROJ_DIR$\cpu\cc253x\dev\hal_button.h</file>
+      <file>$PROJ_DIR$\cpu\cc253x\dev\hal_cc8051.h</file>
+      <file>$PROJ_DIR$\cpu\cc253x\dev\hal_defs.h</file>
+      <file>$PROJ_DIR$\cpu\cc253x\dev\hal_mcu.c</file>
+      <file>$PROJ_DIR$\cpu\cc253x\dev\hal_mcu.h</file>
+      <file>$PROJ_DIR$\cpu\cc253x\dev\hal_rf.c</file>
+      <file>$PROJ_DIR$\cpu\cc253x\dev\hal_rf.h</file>
+      <file>$PROJ_DIR$\cpu\cc253x\dev\mpl115a.h</file>
+      <file>$PROJ_DIR$\cpu\cc253x\dev\mpl115a.c</file>
+      <file>$PROJ_DIR$\cpu\cc253x\dev\hal_types.h</file>
+      <file>$PROJ_DIR$\cpu\cc253x\dev\lis331dlh.c</file>
+      <file>$PROJ_DIR$\cpu\cc253x\dev\lis331dlh.h</file>
+      <file>$PROJ_DIR$\cpu\cc253x\dev\pwr_mode_manager.c</file>
+      <file>$PROJ_DIR$\cpu\cc253x\dev\pwr_mode_manager.h</file>
+      <file>$PROJ_DIR$\cpu\cc253x\dev\rf_pack.c</file>
+      <file>$PROJ_DIR$\cpu\cc253x\dev\rf_pack.h</file>
+      <file>$PROJ_DIR$\cpu\cc253x\dev\timer1.c</file>
+      <file>$PROJ_DIR$\cpu\cc253x\dev\timer1.h</file>
+      <file>$PROJ_DIR$\cpu\cc253x\dev\spi_manager.c</file>
+      <file>$PROJ_DIR$\cpu\cc253x\dev\spi_manager.h</file>
+      <file>$PROJ_DIR$\cpu\cc253x\dev\util.c</file>
+      <file>$PROJ_DIR$\cpu\cc253x\dev\util.h</file>
+      <file>$PROJ_DIR$\cpu\cc253x\dev\uart_manager.c</file>
+      <file>$PROJ_DIR$\cpu\cc253x\dev\uart_manager.h</file>
+      <file>$PROJ_DIR$\cpu\cc253x\cc253x.h</file>
+      <file>$PROJ_DIR$\cpu\cc253x\compiler.h</file>
+      <file>$PROJ_DIR$\cpu\cc253x\dev\util_lcd.c</file>
+      <file>$PROJ_DIR$\cpu\cc253x\dev\util_lcd.h</file>
+      <file>$PROJ_DIR$\main_pc.c</file>
+      <file>$PROJ_DIR$\main_sensor.c</file>
+      <file>$PROJ_DIR$\cpu\cc253x\dev\adc.h</file>
+      <file>$PROJ_DIR$\cpu\cc253x\dev\adc.c</file>
+      <file>$PROJ_DIR$\cpu\cc253x\dev\ads8320.c</file>
+      <file>$PROJ_DIR$\cpu\cc253x\dev\ads8320.h</file>
+      <file>$PROJ_DIR$\cpu\cc253x\dev\clock.h</file>
+      <file>$PROJ_DIR$\cpu\cc253x\dev\clock.c</file>
+      <file>$PROJ_DIR$\cpu\cc253x\dev\basic_rf.c</file>
+      <file>$PROJ_DIR$\cpu\cc253x\dev\basic_rf.h</file>
+      <file>$PROJ_DIR$\sensor_side\Obj\test.pbd</file>
+      <file>$PROJ_DIR$\sensor_side\Obj\clock.r51</file>
+      <file>$PROJ_DIR$\sensor_side\Obj\util_lcd.r51</file>
+      <file>$PROJ_DIR$\sensor_side\Obj\adc.pbi</file>
+      <file>$PROJ_DIR$\sensor_side\Obj\hal_assert.r51</file>
+      <file>$PROJ_DIR$\sensor_side\Obj\spi_manager.r51</file>
+      <file>$PROJ_DIR$\sensor_side\Obj\util.pbi</file>
+      <file>$PROJ_DIR$\sensor_side\Obj\hal_mcu.r51</file>
+      <file>$PROJ_DIR$\sensor_side\Obj\util_lcd.pbi</file>
+      <file>$PROJ_DIR$\sensor_side\Obj\basic_rf.pbi</file>
+      <file>$PROJ_DIR$\sensor_side\Obj\hal_assert.pbi</file>
+      <file>$PROJ_DIR$\sensor_side\Obj\hal_int.pbi</file>
+      <file>$PROJ_DIR$\sensor_side\Obj\hal_mcu.pbi</file>
+      <file>$PROJ_DIR$\sensor_side\Obj\timer1.pbi</file>
+      <file>$PROJ_DIR$\sensor_side\Obj\ads8320.pbi</file>
+      <file>$PROJ_DIR$\sensor_side\Obj\hal_button.pbi</file>
+      <file>$PROJ_DIR$\sensor_side\Obj\lis331dlh.pbi</file>
+      <file>$PROJ_DIR$\sensor_side\Obj\rf_pack.pbi</file>
+      <file>$PROJ_DIR$\sensor_side\Obj\main_sensor.pbi</file>
+      <file>$PROJ_DIR$\sensor_side\Obj\util.r51</file>
+      <file>$PROJ_DIR$\sensor_side\Obj\basic_rf.r51</file>
+      <file>$PROJ_DIR$\sensor_side\Obj\hal_int.r51</file>
+      <file>$PROJ_DIR$\sensor_side\Obj\pwr_mode_manager.pbi</file>
+      <file>$PROJ_DIR$\sensor_side\Exe\test.d51</file>
+      <file>$PROJ_DIR$\sensor_side\Obj\ads8320.r51</file>
+      <file>$PROJ_DIR$\sensor_side\Obj\lis331dlh.r51</file>
+      <file>$PROJ_DIR$\sensor_side\Obj\hal_rf.r51</file>
+      <file>$PROJ_DIR$\sensor_side\List\test.map</file>
+      <file>$PROJ_DIR$\sensor_side\Obj\main_sensor.r51</file>
+      <file>$PROJ_DIR$\sensor_side\Obj\pwr_mode_manager.r51</file>
+      <file>$PROJ_DIR$\sensor_side\Obj\adc.r51</file>
+      <file>$PROJ_DIR$\sensor_side\Obj\rf_pack.r51</file>
+      <file>$PROJ_DIR$\sensor_side\Obj\hal_button.r51</file>
+      <file>$PROJ_DIR$\sensor_side\Obj\spi_manager.pbi</file>
+      <file>$PROJ_DIR$\sensor_side\Obj\hal_rf.pbi</file>
+      <file>$PROJ_DIR$\sensor_side\Obj\timer1.r51</file>
+      <file>$PROJ_DIR$\sensor_side\Obj\clock.pbi</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 79 83</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\cpu\cc253x\dev\hal_int.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 77</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 67</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 27 20 14 9 42 43 19 22</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\cpu\cc253x\dev\hal_assert.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 60</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 66</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 16 20 5 27 22</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\cpu\cc253x\dev\hal_button.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 88</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 71</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 27 9 42 43 19 20 22 18</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\cpu\cc253x\dev\hal_mcu.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 63</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 68</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 27 22 52 20 31 42 43</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\cpu\cc253x\dev\hal_rf.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 82</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 90</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 9 42 43 19 27 20 22 14 16 24 39</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\cpu\cc253x\dev\lis331dlh.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 81</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 72</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 27 20 22 52 42 43 29</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\cpu\cc253x\dev\pwr_mode_manager.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 85</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 78</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 27 20 22 31 42 43 52</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\cpu\cc253x\dev\rf_pack.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 87</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 73</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 27 20 0 11 10 33 3</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\cpu\cc253x\dev\timer1.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 91</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 69</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 35 27 20 42 43</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\cpu\cc253x\dev\spi_manager.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 61</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 89</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 27 20 22 37 52 42 43</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\cpu\cc253x\dev\util.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 75</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 62</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 39 27 20 24</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\cpu\cc253x\dev\util_lcd.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 58</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 64</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 9 42 43 19 27 20 22 4 2 18 16 45 39 24 3 10</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\main_sensor.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 84</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 74</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 22 27 8 20 42 43 35 0 11 10 7 3 24 55 33 48 31 51 37 52 29 25 12</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\cpu\cc253x\dev\adc.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 86</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 59</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 48 27 20 42 43 50 22 51 52 54 14 24 55 39 3 10 53 15 16 5 17 9 19 18 13 21 31 23 28 29 47 8 35 0 11 7 33 37 25 12 30 32 36 34 38 44 4 2 45</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 48 27 20 42 43</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\cpu\cc253x\dev\ads8320.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 80</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 70</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 27 20 22 51 42 43 52</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\cpu\cc253x\dev\clock.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 57</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 92</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 42 43 52</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\cpu\cc253x\dev\basic_rf.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 76</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 65</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 14 27 22 24 55 20 39 3 10</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\sensor_side\Exe\test.d51</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 83</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 6 86 80 76 57 60 88 77 63 82 81 84 85 87 61 91 75 58 1</file>
+        </tool>
+      </inputs>
+    </file>
   </configuration>
 </project>
 
